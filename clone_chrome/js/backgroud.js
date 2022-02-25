@@ -7,4 +7,6 @@ for (let i=1;i<12;i++){
 
 let randomNumber = Math.floor(Math.random() * imgName.length);
 imgPath = './img/' + imgName[randomNumber] + '.jpg';
-$('.img').children('img').attr('src', imgPath);
+// $('.img').children('img').attr('src', imgPath);
+console.log(imgPath);
+document.body.style.backgroundImage = 'url('+ imgPath+')';
