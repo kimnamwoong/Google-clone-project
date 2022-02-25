@@ -1,0 +1,53 @@
+.hidden {
+    display: none;
+}
+/* 백그라운드 이미지 설정 */
+.img { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+#login_form{
+    position:absolute;
+    top: 15%;
+    left: 45%;
+}
+h1 {
+    text-align: center;
+    color: chocolate;
+    position: absolute;
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+}
+ul {
+    color: white;
+}
+.todo-box {
+    position:absolute;
+    left:55%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-150px;
+}
+#clock {
+    position: absolute;
+    color: coral;
+    top: 0%;
+    left: 35%;
+    width: 100%; 
+}
+
+#quote {
+    color: beige;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#weather {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 7%;
+    left: 40%;
+}
